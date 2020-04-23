@@ -13,6 +13,10 @@
 		6403C06F2450DB68009C70F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6403C06D2450DB68009C70F7 /* Main.storyboard */; };
 		6403C0712450DB6B009C70F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6403C0702450DB6B009C70F7 /* Assets.xcassets */; };
 		6403C0742450DB6B009C70F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6403C0722450DB6B009C70F7 /* LaunchScreen.storyboard */; };
+		6403C07C2450E5DC009C70F7 /* MeasureScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6403C07B2450E5DC009C70F7 /* MeasureScreenVC.swift */; };
+		6403C07E2450E619009C70F7 /* ExcersiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6403C07D2450E619009C70F7 /* ExcersiceVC.swift */; };
+		6403C0802450E7B9009C70F7 /* Exe1Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6403C07F2450E7B9009C70F7 /* Exe1Cell.swift */; };
+		6403C0832451CAE9009C70F7 /* Montserrat in Resources */ = {isa = PBXBuildFile; fileRef = 6403C0822451CAE9009C70F7 /* Montserrat */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		6403C0702450DB6B009C70F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6403C0732450DB6B009C70F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6403C0752450DB6B009C70F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6403C07B2450E5DC009C70F7 /* MeasureScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureScreenVC.swift; sourceTree = "<group>"; };
+		6403C07D2450E619009C70F7 /* ExcersiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcersiceVC.swift; sourceTree = "<group>"; };
+		6403C07F2450E7B9009C70F7 /* Exe1Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exe1Cell.swift; sourceTree = "<group>"; };
+		6403C0822451CAE9009C70F7 /* Montserrat */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Montserrat; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,27 @@
 		6403C0662450DB68009C70F7 /* readSpeed */ = {
 			isa = PBXGroup;
 			children = (
+				6403C0812451CAC7009C70F7 /* Fonts */,
 				6403C0672450DB68009C70F7 /* AppDelegate.swift */,
 				6403C0692450DB68009C70F7 /* SceneDelegate.swift */,
 				6403C06B2450DB68009C70F7 /* ViewController.swift */,
+				6403C07B2450E5DC009C70F7 /* MeasureScreenVC.swift */,
+				6403C07D2450E619009C70F7 /* ExcersiceVC.swift */,
+				6403C07F2450E7B9009C70F7 /* Exe1Cell.swift */,
 				6403C06D2450DB68009C70F7 /* Main.storyboard */,
 				6403C0702450DB6B009C70F7 /* Assets.xcassets */,
 				6403C0722450DB6B009C70F7 /* LaunchScreen.storyboard */,
 				6403C0752450DB6B009C70F7 /* Info.plist */,
 			);
 			path = readSpeed;
+			sourceTree = "<group>";
+		};
+		6403C0812451CAC7009C70F7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6403C0822451CAE9009C70F7 /* Montserrat */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6403C0742450DB6B009C70F7 /* LaunchScreen.storyboard in Resources */,
+				6403C0832451CAE9009C70F7 /* Montserrat in Resources */,
 				6403C0712450DB6B009C70F7 /* Assets.xcassets in Resources */,
 				6403C06F2450DB68009C70F7 /* Main.storyboard in Resources */,
 			);
@@ -139,8 +160,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6403C06C2450DB68009C70F7 /* ViewController.swift in Sources */,
+				6403C07E2450E619009C70F7 /* ExcersiceVC.swift in Sources */,
+				6403C0802450E7B9009C70F7 /* Exe1Cell.swift in Sources */,
 				6403C0682450DB68009C70F7 /* AppDelegate.swift in Sources */,
 				6403C06A2450DB68009C70F7 /* SceneDelegate.swift in Sources */,
+				6403C07C2450E5DC009C70F7 /* MeasureScreenVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

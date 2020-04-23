@@ -16,5 +16,16 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func measureBttn(_ sender: Any) {
+        
+        
+    }
+    
+    
+    
+    @IBAction func exeBttn(_ sender: Any) {
+        
+        
+    }
 }
 
